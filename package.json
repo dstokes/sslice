@@ -1,0 +1,30 @@
+{
+  "name": "sslice",
+  "version": "0.0.0",
+  "description": "String.prototype.slice for streams",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "split": "~0.2.5",
+    "through": "~2.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/sslice.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dstokes/sslice.git"
+  },
+  "keywords": [
+    "streams",
+    "slice"
+  ],
+  "author": "Drew Stokes",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/dstokes/sslice/issues"
+  }
+}

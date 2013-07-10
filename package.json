@@ -1,6 +1,6 @@
 {
   "name": "sslice",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "String.prototype.slice for streams",
   "main": "index.js",
   "directories": {

@@ -14,7 +14,7 @@ var sslice = require('sslice')
 // pipe all but the first and last line of a file to stdout
 fs.createReadStream(somefile)
   .pipe(split())
-  .pipe(sslice(1, -1)
+  .pipe(sslice(1, -1))
   .pipe(process.stdout)
 ```
 

@@ -7,7 +7,6 @@
     "test": "test"
   },
   "dependencies": {
-    "split": "~0.2.5",
     "through": "~2.3.4"
   },
   "devDependencies": {},

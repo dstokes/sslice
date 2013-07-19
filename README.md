@@ -1,11 +1,14 @@
 sslice
 ======
 
-[![Build Status](https://travis-ci.org/dstokes/sslice.png)](https://travis-ci.org/dstokes/sslice)
-
 Slice streams with ease. This was originally created for use with [split](http://github.com/dominictarr/split) but
 should work with any stream buffer delimiter.
 
+[![Build Status](https://travis-ci.org/dstokes/sslice.png)](https://travis-ci.org/dstokes/sslice)  
+[![NPM](https://nodei.co/npm/sslice.png?downloads=true)](https://nodei.co/npm/sslice/)  
+
+Example
+=======
 ``` js
 var sslice = require('sslice')
   , split  = require('split')
